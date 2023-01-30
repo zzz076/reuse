@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 720px;
+  height: 819px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .container {
+  margin: 5rem;
+  flex-grow: 1;
+}
+.App .container .section {
+  margin: 2rem 0;
+}
+.App .container .title .mainTitle {
+  color: #00399e;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  font-family: "Roboto", sans-serif;
+}
+.App .container .title .subTitle {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  margin: 10px 0;
+  color: #6D768D;
+}
+.App .container .title .subTitle .newAccount {
+  color: #0061E3;
+}
+.App .container .warning {
+  width: 400px;
+  height: 82px;
+  background-color: #FBE1DF;
+  font-family: "Roboto";
+  font-size: 15px;
+  line-height: 22px;
+  color: #B61102;
+  padding: 8px 20px;
+}
+.App .container .warning .warningTitle {
+  font-weight: 700;
+}
+.App .container .warning .warningContent {
+  font-weight: 400;
+}
+.App .container .password {
+  width: 400px;
+}
+.App .container .password .passwordTitle {
+  display: flex;
+  justify-content: space-between;
+}
+.App .container .password .passwordTitle .forgotPassword {
+  color: #0061E3;
+}
+.App .container .emailInput, .App .container .passwordInput {
+  background-color: #F9F9FA;
+  border: 1px solid #E8E9ED;
+  width: 400px;
+}
+.App .copyRight {
+  margin: 20px;
+}/*# sourceMappingURL=App.css.map */
