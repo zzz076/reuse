@@ -1,81 +1,109 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
-*{
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.App{
-    width: 720px;
-    height: 819px;
-    left: 0px;
-    top: 0px;
-    background: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    .container{
-        margin: 5rem;
-       flex-grow : 1;
-       .section{
-        margin: 2rem 0;
-       }
-        .title{
-            .mainTitle{
-                color: #00399e;
-                font-size: 36px;
-                font-weight: 700;
-                line-height: 40px;       
-                font-family: 'Roboto', sans-serif; 
-            }
-            .subTitle{
-                font-weight: 400;
-                font-size: 15px;
-                line-height: 22px;
-                margin: 10px 0;
-                color:#6D768D;
-                .newAccount{
-                    color:#0061E3;
-                }
-            }
-        }
-        .warning{
-            width: 400px;
-            height: 82px;
-            background-color:  #FBE1DF;
-            font-family: 'Roboto';
-            font-size: 15px;
-            line-height: 22px;
-            color: #B61102;
-            padding:8px 20px;
-            .warningTitle{
-                font-weight: 700;
-            }
-            .warningContent{
-                font-weight: 400;
-            }
-        }
-        .password{
-            width: 400px;
-            
-            .passwordTitle{
-                display: flex;
-                justify-content: space-between;
-                .forgotPassword{
-                    color:#0061E3
-                }
-            }
-        }
-        .emailInput, .passwordInput{
-            background-color: #F9F9FA;
-            border:1px solid #E8E9ED;
-            width:400px;
-
-        }
+.App {
+  width: 720px;
+  height: 819px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .container {
+    margin: 5rem;
+    flex-grow: 1;
+    .section {
+      margin: 2rem 0;
     }
-    .copyRight{
-        
-        margin: 20px;
+    .title {
+      .mainTitle {
+        color: #00399e;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        font-family: "Roboto", sans-serif;
+      }
+      .subTitle {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        margin: 10px 0;
+        color: #6d768d;
+        .newAccount {
+          color: #0061e3;
+        }
+      }
     }
+    .warning {
+      width: 400px;
+      height: 82px;
+      background-color: #fbe1df;
+      font-family: "Roboto";
+      font-size: 15px;
+      line-height: 22px;
+      color: #b61102;
+      padding: 8px 20px;
+      .warningTitle {
+        font-weight: 700;
+      }
+      .warningContent {
+        font-weight: 400;
+      }
+    }
+    .password {
+      width: 400px;
+      position: relative;
+      .eye {
+        position: absolute;
+        top: 50%;
+        right: 4%;
+        cursor: pointer;
+      }
+      .passwordTitle {
+        display: flex;
+        justify-content: space-between;
+        .forgotPassword {
+          color: #0061e3;
+        }
+      }
+    }
+    .emailInput,
+    .passwordInput {
+      width: 400px;
+      min-height: 40px;
+      font-size: 15px;
+      line-height: 22px;
+      padding: 10px;
+      outline: none;
+      border-radius: 5px;
+    }
+    .signInSection {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .mainButton {
+        width: 200px;
+        height: 36px;
+        border-radius: 18px;
+        padding: 7px, 16px;
+        background-color: #0061e3;
+        color: #ffffff;
+        border: none;
+        outline: none;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+      }
+    }
+  }
+  .copyRight {
+    margin: 20px;
+  }
 }

@@ -10,7 +10,7 @@
   height: 819px;
   left: 0px;
   top: 0px;
-  background: #FFFFFF;
+  background: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,19 +35,19 @@
   font-size: 15px;
   line-height: 22px;
   margin: 10px 0;
-  color: #6D768D;
+  color: #6d768d;
 }
 .App .container .title .subTitle .newAccount {
-  color: #0061E3;
+  color: #0061e3;
 }
 .App .container .warning {
   width: 400px;
   height: 82px;
-  background-color: #FBE1DF;
+  background-color: #fbe1df;
   font-family: "Roboto";
   font-size: 15px;
   line-height: 22px;
-  color: #B61102;
+  color: #b61102;
   padding: 8px 20px;
 }
 .App .container .warning .warningTitle {
@@ -58,18 +58,50 @@
 }
 .App .container .password {
   width: 400px;
+  position: relative;
+}
+.App .container .password .eye {
+  position: absolute;
+  top: 50%;
+  right: 4%;
+  cursor: pointer;
 }
 .App .container .password .passwordTitle {
   display: flex;
   justify-content: space-between;
 }
 .App .container .password .passwordTitle .forgotPassword {
-  color: #0061E3;
+  color: #0061e3;
 }
-.App .container .emailInput, .App .container .passwordInput {
-  background-color: #F9F9FA;
-  border: 1px solid #E8E9ED;
+.App .container .emailInput,
+.App .container .passwordInput {
   width: 400px;
+  min-height: 40px;
+  font-size: 15px;
+  line-height: 22px;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+}
+.App .container .signInSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App .container .signInSection .mainButton {
+  width: 200px;
+  height: 36px;
+  border-radius: 18px;
+  padding: 7px, 16px;
+  background-color: #0061e3;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
 }
 .App .copyRight {
   margin: 20px;
